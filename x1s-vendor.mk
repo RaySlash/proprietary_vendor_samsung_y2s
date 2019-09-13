@@ -18,6 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/x1s
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/x1s/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
     vendor/samsung/x1s/proprietary/system/etc/init/init.rilmptcp.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.rilmptcp.rc \
     vendor/samsung/x1s/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
     vendor/samsung/x1s/proprietary/system/bin/ikev2-client:$(TARGET_COPY_OUT_SYSTEM)/bin/ikev2-client \
@@ -60,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/x1s/proprietary/system/lib/vendor.samsung_slsi.hardware.configstore-utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung_slsi.hardware.configstore-utils.so \
     vendor/samsung/x1s/proprietary/system/lib/vendor.samsung_slsi.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung_slsi.hardware.configstore@1.0.so \
     vendor/samsung/x1s/proprietary/system/lib/vendor.samsung_slsi.hardware.eden_runtime@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung_slsi.hardware.eden_runtime@1.0.so \
-    vendor/samsung/x1s/proprietary/system/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/samsung/x1s/proprietary/system/lib64/libatparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libatparser.so \
     vendor/samsung/x1s/proprietary/system/lib64/libfactoryutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfactoryutil.so \
     vendor/samsung/x1s/proprietary/system/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfloatingfeature.so \
